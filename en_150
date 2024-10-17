@@ -2,7 +2,7 @@ comment_char %
 escape_char /
 
 LC_IDENTIFICATION
-title      "English (World)"
+title      "English (Europe)"
 source     ""
 address    ""
 contact    ""
@@ -10,7 +10,7 @@ email      ""
 tel        ""
 fax        ""
 language   "English"
-territory  "World"
+territory  "Europe"
 revision   "draft"
 date       ""
 
@@ -37,10 +37,10 @@ copy "en_GB"
 END LC_CTYPE
 
 LC_MONETARY
-int_curr_symbol     "XDR "
-currency_symbol     "$"
-mon_decimal_point    "."
-mon_thousands_sep    ","
+int_curr_symbol     "EUR "
+currency_symbol     "€"
+mon_decimal_point    ","
+mon_thousands_sep    "."
 mon_grouping         3
 positive_sign        ""
 negative_sign        "-"
@@ -55,8 +55,8 @@ n_sign_posn          1
 END LC_MONETARY
 
 LC_NUMERIC
-decimal_point        "."
-thousands_sep        ","
+decimal_point        ","
+thousands_sep        "."
 grouping             3
 END LC_NUMERIC
 
@@ -124,8 +124,8 @@ END LC_NAME
 
 LC_ADDRESS
 postal_fmt   "%f%N%a%N%d%N%b%N%s %h %e %r%N%%z %T%N%c%N"
-country_name "World"
-country_car   "XA"
+country_name "Europe"
+country_car   "EU"
 lang_name     "English"
 lang_ab      "en"
 lang_term    "eng"
